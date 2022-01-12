@@ -1,0 +1,238 @@
+BODY {text-decoration: none; font-family: Verdana; font-size: 11px; text-align: left; margin-left: 0.3cm; margin-right: 0.3cm; margin-top: 0.3cm; margin-bottom: 0.3cm; color: black}
+BODY.obrazki {text-align: justify; margin-left: 0cm; margin-right: 0cm; margin-top: 0cm; color: black; font-size: 10pt; text-decoration: none; background-color: white}
+A {text-decoration: none; color: blue}
+A:hover {text-decoration: underline}
+A:active {color: purple}
+H1 {font-family: Verdana; font-size: 14px; text-align: left; color: black; font-weight: bold; margin-left: 0cm; margin-right: 0cm; margin-top: 0cm}
+table {border: none; font-size: 11px} 
+table tr,table td,table th {border: none; font-size: 11px} 
+input, select, textarea {font-size: 11px;}
+.tekst {text-decoration: none; font-family: Verdana; font-size: 11px; text-align: justify; color: black}
+.sklep {text-decoration: none; font-family: Verdana; font-size: 11px; text-align: left; color: black}
+.menu {font-size: 11px; text-decoration: none; color: black; text-align: left; font-weight: bold}
+.menu a{text-decoration: none; color: blue; font-weight: bold}
+.menu a:hover{text-decoration: none; color: red; font-weight: bold}
+.menu_naglowek {font-size: 12px; text-decoration: none; color: black; text-align: center; font-weight: bold}
+.lacze {text-decoration: none; font-weight: bold; color: blue}
+.lacze a {text-decoration: none; font-weight: bold; color: yellow}
+.lacze a:hoover {text-decoration: none; font-weight: bold; color: red}
+.ramka_blue {
+  font-size:11px;
+  color:black;
+  text-decoration: none;
+  font-weight:normal;
+  text-align: left; 
+  background: #D4FCDC;
+  border-style:solid;
+  border-width:1px;
+  border-color: #039F20;
+}
+.ramka_blue A {color:blue;}
+.ramka_blue A:hover {text-decoration: underline;}
+.jasniejsza_belka {  background: #F5F5F5; }
+.ciemniejsza_belka {  background: #E2E2E2; }
+.jasniejsza_belka_foil {  background: #E0FFE0; }
+.ciemniejsza_belka_foil {  background: #C0FFC0; }
+.stan_gorszy { color: red; }
+.ramka {
+  font-size:11px;
+  color:black;
+  text-decoration: none;
+  font-weight:normal;
+  text-align: left; 
+  background: #FFFFF5;
+  border-style:solid;
+  border-width:1px;
+  border-color: #F5E4C3;
+}
+.wyliczanie{background:#F5E4C3}
+.hint {text-decoration: none; font-family: Verdana; font-size: 9px; text-align: left; color: #999999}
+.hint_ciemniejszy {text-decoration: none; font-family: Verdana; font-size: 9px; text-align: left; color: #787878}
+.ramka_skanu {
+  border-style:solid;
+  border-width:1px;
+  border-color: black;
+}
+.tabela_siatka { border-collapse: collapse;  }
+.tabela_siatka TR {background: #FFF8AB;}
+.tabela_siatka TR#row1 {background: #D9CA4F; font-weight: bold; text-align: center}
+.tabela_siatka TD {border: 1px solid #8E8304; padding: 5px;}
+
+.tabela_sklep { border-collapse: collapse;  }
+.tabela_sklep TR {background: #FFFFF5; text-align: center}
+.tabela_sklep TR#row1 {background: #F5E4C3; font-weight: bold; text-align: center; font-size: +2 }
+.tabela_sklep TR#naglowek {background: #F5E4C3; font-weight: bold; text-align: center; font-size: +2 }
+.tabela_sklep TD {border: 1px solid #F5E4C3; padding: 2px 4px 2px 4px; text-align: center}
+.tabela_sklep A:hover {text-decoration: none}
+.tabela_sklep TR#light {background: #F5F5F5;}
+.tabela_sklep TR#dark {background: #E2E2E2;}
+.tabela_sklep TR#lightfoil {background: #E0FFE0;}
+.tabela_sklep TR#darkfoil {background: #C0FFC0;}
+
+.tabela_wewnetrzna_sklepu TD {border: 0px; padding: 0px; text-align: center; color: blue}
+.tabela_wewnetrzna_sklepu_wyrozniona A {color: red}
+.tabela0 {border: 0px solid #F5E4C3; padding: 0px}
+.tabela0 TD {border: 0px; padding: 0px}
+.tabela0 TD#foil {background: #C0FFC0}
+
+.kom_pozytywny {color: green}
+.kom_neutralny {color: gray}
+.kom_negatywny {color: red}
+
+
+.opinia { border-collapse: collapse;}
+.opinia TR {background: #EEEEEE;}
+.opinia TR#row1 {background: #555555; color: white; font-weight: bold; text-align: left; font-size: +2 }
+.opinia TD {border: 1px solid #000000; padding: 2px; text-align: left}
+.opinia A:hover {text-decoration: none}
+
+.zdjecie { border-collapse: collapse}
+.zdjecie TR {background: #FFFFFF;}
+.zdjecie TR#podpis {background: #EEEEEE; color: black; font-weight: normal; text-align: left;}
+.zdjecie TD {border: 1px solid #000000; padding: 2px; text-align: center}
+.zdjecie TD#podpis {border: 1px solid #000000; padding: 2px; text-align: left; font-size: 9px}
+.zdjecie A:hover {text-decoration: none}
+
+.tabela_lista TR#row1 {background: #EEEEEE; color: black; font-weight: bold; text-align: left;}
+.tabela_lista TD {border: 0px; margin: 0px; padding: 0px 3px 0px 3px; text-align: left; color: black}
+
+.ramka_czysta { border: 0px}
+.ramka_czysta TD {border: 0px; padding: 2px; text-align:left}
+
+.lista { border-collapse: collapse; border: 0px; padding: 0px; text-align:left; font-weight: normal;}
+.lista TR#naglowek {background: #C3C3C3; color: black; font-weight: bold; text-align: center}
+.lista TR#nieparzysty {background: #F6F6F6;}
+.lista TR#parzysty {background: #E6E6E6;}
+.lista TR#nieparzystyfoil {background: #E0FFE0;}
+.lista TR#parzystyfoil {background: #C0FFC0;}
+.lista TD {border: 0px; padding: 1px 3px 1px 3px;}
+.lista TD#asc {background-image: url('pics/design/sort_asc.gif'); background-position: right center; padding: 1px 13px 1px 3px; background-repeat: no-repeat;}
+.lista TD#desc {background-image: url('pics/design/sort_desc.gif'); background-position: right center; padding: 1px 13px 1px 3px; background-repeat: no-repeat;}
+
+.naglowek1 {background: #FFF8AB; border-top: 1px solid #D9CA4F; border-bottom: 1px solid #D9CA4F; font-weight: bold}
+.header1 {background: #FFF8AB; border-top: 1px solid #D9CA4F; border-bottom: 1px solid #D9CA4F; font-weight: bold; padding: 4px; margin: 8px 0 8px 0}
+
+.ramka_szara table {border-collapse: collapse; border: 1px solid #D0D0D0; color: black; }
+.ramka_szara TR#naglowek {background: #D0D0D0; color: white;}
+.ramka_szara TD {padding: 0px;}
+
+.pocket table {border-collapse: collapse; border: 0px; padding: 0px;}
+.pocket TD {padding: 0px;}
+.pocket TD#slot {padding: 5px;text-align: center;}
+.pocket TD#left {background-image: url('pics/design/pocket_left.gif');}
+.pocket TD#right {background-image: url('pics/design/pocket_right.gif');}
+.pocket TD#top {background: url('pics/design/pocket_topline.gif') repeat-x;}
+.pocket TD#bottom {background: url('pics/design/pocket_bottomline.gif') repeat-x;}
+.pocket TD#Hdiv {background: url('pics/design/pocket_Hdiv.gif') repeat-x;}
+.pocket TD#Vdiv {background-image: url('pics/design/pocket_Vdiv.gif'); background-repeat: repeat-y;}
+.pocket TD#crossdiv {background-image: url('pics/design/pocket_crossdiv.gif'); background-repeat: no-repeat;}
+option.imagebacked {
+  padding: 0px 0 0px 20px;
+  background-repeat: no-repeat;
+  background-position: 1px 0px;
+  vertical-align: middle; 
+}
+
+.tabela_jasna { border-collapse: collapse}
+.tabela_jasna TR {background: #FFFFF5}
+.tabela_jasna TR#naglowek {background: #F5E4C3; font-weight: bold; text-align: center; font-size: +2 }
+.tabela_jasna TD {border: 1px solid #F5E4C3; padding: 2px 4px 2px 4px; text-align: left}
+.tabela_jasna TD#liczba {text-align: right}
+.tabela_jasna A:hover {text-decoration: none}
+.tabela_jasna TR#light {background: #F5F5F5;}
+.tabela_jasna TR#dark {background: #E2E2E2;}
+.tabela_jasna TR#lightfoil {background: #E0FFE0;}
+.tabela_jasna TR#darkfoil {background: #C0FFC0;}
+
+.infoBox { border-collapse: collapse;}
+.infoBox TR {background: #FFFFF5; text-align: center}
+.infoBox TR#row1 {background: #F5E4C3; font-weight: bold; text-align: center; font-size: +2p }
+.infoBox TR#headerInfoBox {background: #F5E4C3; font-weight: bold; text-align: center; font-size: +2 }
+.infoBox TD {border: 1px solid #F5E4C3; padding: 2px 4px 2px 4px; text-align: center}
+.infoBox TD#headerInfoBox {background: #F5E4C3; font-weight: bold; text-align: center; font-size: +2 }
+.infoBox A:hover {text-decoration: none}
+.infoBox TR#light {background: #F5F5F5;}
+.infoBox TR#dark {background: #E2E2E2;}
+.infoBox TR#lightfoil {background: #E0FFE0;}
+.infoBox TR#darkfoil {background: #C0FFC0;}
+
+.icon_table { border: 0px}
+.icon_table TD {border: 0px; padding: 20px; text-align: center; font-size: 15px; font-weight: bold;}
+.icon_table A {text-decoration: none; color: black;}
+.icon_table A:hover {text-decoration: none; color: red;}
+
+.site_path {color: black; margin: 0 0 20px 0; font-weight: bold}
+.site_path A {color: #7e7e7e}
+.site_path A:hover {color: red; text-decoration: none; }
+
+.message {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #bb913a;
+  background: #fce2ac;
+  font-size: 1.3em;
+  text-align: center;
+  color: #4d3a11;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.message_info {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #bb913a;
+  background: #fce2ac;
+  font-size: 1.3em;
+  text-align: center;
+  color: #4d3a11;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+.table_min TD {border: 0px; text-align:left; padding: 0px; margin: 0px;}
+.highlight_change {color: red}
+
+/* NEW - VIEWs with DIVs*/
+/* container for data presentation & dataimage */
+.datacontainer{
+    margin: 5px;
+    width: 620px;
+}
+/* Container for 2 column view with labels and data */
+.datapresentation{
+    width:400px;
+    display:inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+/* Container for image next to .datapresentation */
+.dataimage {
+    width:200px;
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.image{border: 1px black}
+.label{}
+.data{}
+.importantdata {font-weight: bold}
+
+/* sections (card, product) */
+.description{}
+.notes{font-style: italic}
+.cardlist{}
+
+/* general rules */
+/*#header {font-size: larger; font-weight: bold; padding: 10px 0 15px 50px; font-style: normal;
+         background-image: url('pics/design/section_header.gif');
+         background-position: bottom;
+         background-repeat:repeat-x;
+}*/
+#header {
+    font-size: larger; font-weight: bold; padding: 4px 10px 4px 40px; font-style: normal; margin: 3px 0 5px 0;
+    background: #FFE6AB; border-top: 1px solid #D9CA4F;
+}
+/* used for options in header, it appears on right and has standard font, no margins*/
+#headeroptions {font-size: 11px; font-weight:normal; padding: 0; margin: 2px 0 0 0; border: 0; float: right;}
+.minilink {font-size: 9px}
